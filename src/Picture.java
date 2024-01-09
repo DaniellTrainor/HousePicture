@@ -61,7 +61,7 @@ public class Picture
     {
         wall.changeColor("black");
         window.changeColor("white");
-        roof.changeColor("black");
+        roof.changeColor("Yellow");
         sun.changeColor("black");
     }
 
