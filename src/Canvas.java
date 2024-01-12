@@ -108,12 +108,23 @@ public class Canvas
 
     /**
      * Set the foreground color of the Canvas.
-     * @param  newColor   the new color for the foreground of the Canvas
      */
     public void setForegroundColor(String colorString)
     {
         if(colorString.equals("red")) {
             graphic.setColor(new Color(235, 25, 25));
+        }
+        if(colorString.equals("lightBlue")) {
+            graphic.setColor(new Color(61, 217, 255));
+        }
+        if(colorString.equals("lightGreen")) {
+            graphic.setColor(new Color(132, 199, 129));
+        }
+        if(colorString.equals("brown")) {
+            graphic.setColor(new Color(174, 101, 45));
+        }
+        if(colorString.equals("skin")) {
+            graphic.setColor(new Color(255, 209, 174));
         }
         else if(colorString.equals("black")) {
             graphic.setColor(Color.black);
